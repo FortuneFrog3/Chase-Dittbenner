@@ -43,7 +43,6 @@
 
 .contact-links {
   display: flex;
-  gap: 14px;
   margin-top: 28px;
 }
 
@@ -59,16 +58,31 @@
 }
 
 .contact-links .linkedin-button {
-  width: 64px;
+  width: calc(50% - 10px);
+  min-width: 280px;
   height: 64px;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 18px;
 
   svg {
     font-size: 1.6em;
+  }
+
+  span {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
   }
 }
 
 @media screen and (max-width: 700px) {
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .contact-links .linkedin-button {
+    width: 100%;
+    min-width: 0;
   }
 }

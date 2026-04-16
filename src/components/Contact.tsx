@@ -13,9 +13,8 @@ function Contact() {
         <div className="contact_wrapper">
           <h1>Contact</h1>
           <p>
-            I am seeking entry-level software engineering opportunities in real-time
-            systems, motorsports technology, and engineering-focused
-            software development.
+            I am seeking software engineering opportunities in real-time systems,
+            motorsports technology, and engineering-focused software development.
           </p>
           <div className="contact-grid">
             <a className="contact-card" href="mailto:chase.dittbenner3@gmail.com">
@@ -36,6 +35,7 @@ function Contact() {
           <div className="contact-links" aria-label="Contact links">
             <a className="linkedin-button" href={linkedInUrl} target="_blank" rel="noreferrer" aria-label="LinkedIn profile">
               <LinkedInIcon />
+              <span>LinkedIn</span>
             </a>
           </div>
         </div>
