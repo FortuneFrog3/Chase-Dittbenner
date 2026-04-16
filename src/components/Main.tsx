@@ -22,7 +22,7 @@ function Main() {
         <div className="content hero-content">
           <p className="section-eyebrow">Software Engineering Portfolio</p>
           <h1>Chase Dittbenner</h1>
-          <h2>Software Engineer | Real-Time Systems | Hardware-Software Integration</h2>
+          <h2>Software Engineer</h2>
           <p className="hero-summary">
             I am a Computer Science and Software Engineering student graduating in
             2026 with hands-on experience developing real-time software systems that
