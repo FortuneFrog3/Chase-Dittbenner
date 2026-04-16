@@ -168,6 +168,11 @@ p, a, h1, h2, h3, h4, h5, label, button {
     border-color: rgba(0, 0, 0, 0.08);
   }
 
+  .project-feature-list li,
+  .project-feature-list li::marker {
+    color: #0d1116;
+  }
+
   .hero-card strong,
   .section-eyebrow,
   .project-label {
