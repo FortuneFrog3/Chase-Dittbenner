@@ -8,6 +8,10 @@ body {
   font-size: 1.1rem !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
   font-size: 1rem !important;
@@ -63,6 +67,10 @@ p, a, h1, h2, h3, h4, h5, label, button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.section-anchor {
+  scroll-margin-top: 88px;
 }
 
 .header-image {
@@ -141,8 +149,44 @@ p, a, h1, h2, h3, h4, h5, label, button {
     border-right: 7px solid rgba(0, 0, 0, 0.08) !important;
   }
 
-  .flex-chips .chip-title {
+  .about-card,
+  .skills-container .skills-grid .skill,
+  .featured-project-card,
+  .contact-card {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .contact-card svg {
     color: #0d1116;
+  }
+
+  .hero-card,
+  .project-sidebar {
+    background: rgba(255, 255, 255, 0.7);
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .hero-card strong,
+  .section-eyebrow,
+  .project-label {
+    color: #5000ca;
+  }
+
+  .hero-actions .MuiButton-outlined {
+    color: #0d1116;
+    border-color: rgba(13, 17, 22, 0.25);
+  }
+
+  .resume-card {
+    background: linear-gradient(135deg, rgba(80, 0, 202, 0.16), rgba(255, 255, 255, 0.95));
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  footer {
+    border-top-color: rgba(0, 0, 0, 0.08);
   }
 }
 
