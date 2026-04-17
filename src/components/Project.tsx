@@ -38,7 +38,7 @@ function Project() {
             <div className="video-frame">
               <span>Video Placeholder</span>
             </div>
-            <p>Add your ChronoBox demo video here once recording is complete.</p>
+            <p>ChronoBox demo video here once recording/editing is complete.</p>
           </div>
         </aside>
       </div>
