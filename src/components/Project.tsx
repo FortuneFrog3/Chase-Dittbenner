@@ -11,6 +11,8 @@ const projectFeatures = [
 ];
 
 function Project() {
+  const projectVideoUrl = `${process.env.PUBLIC_URL}/chronobox-demo.mp4`;
+
   return (
     <section className="projects-container section-anchor" id="projects">
       <h1>Featured Project</h1>
@@ -34,11 +36,12 @@ function Project() {
         </div>
         <aside className="project-sidebar">
           <h3>Project Video</h3>
-          <div className="video-placeholder">
-            <div className="video-frame">
-              <span>Video Placeholder</span>
-            </div>
-            <p>ChronoBox demo video here once recording/editing is complete.</p>
+          <div className="project-video">
+            <video className="video-frame" controls preload="metadata">
+              <source src={projectVideoUrl} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p>ChronoBox demo video.</p>
           </div>
         </aside>
       </div>
@@ -47,4 +50,3 @@ function Project() {
 }
 
 export default Project;
-

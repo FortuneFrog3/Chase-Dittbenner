@@ -58,30 +58,22 @@
     margin-bottom: 18px;
 }
 
-.video-placeholder {
+.project-video {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
 .video-frame {
+    width: 100%;
     min-height: 220px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 14px;
-    border: 2px dashed rgba(255, 255, 255, 0.22);
-    background: rgba(255, 255, 255, 0.04);
-
-    span {
-        font-size: 0.95rem;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: #8bb8ff;
-    }
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #05070a;
+    object-fit: cover;
 }
 
-.video-placeholder p {
+.project-video p {
     margin: 0;
     line-height: 1.7;
 }
