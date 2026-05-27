@@ -12,7 +12,6 @@ function Resume() {
         <div className="resume-card">
           <p className="section-eyebrow">Resume</p>
           <h1>Download a PDF copy of my resume.</h1>
-          
           <Button
             component="a"
             href={resumePath}

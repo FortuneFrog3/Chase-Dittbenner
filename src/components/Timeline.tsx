@@ -7,6 +7,8 @@ import "react-vertical-timeline-component/style.min.css";
 import "../assets/styles/Timeline.scss";
 
 function Timeline() {
+  const honorRollPath = `${process.env.PUBLIC_URL}/HonorRoll_P.pdf`;
+
   return (
     <section id="experience" className="section-anchor">
       <div className="items-container">
@@ -29,6 +31,15 @@ function Timeline() {
               <li>Linear Algebra.</li>
               <li>Data Structures and Algorithms 1 and 2.</li>
             </ul>
+            <p className="experience-label experience-label--spaced">Academic Honors</p>
+            <p className="experience-detail">
+              President&apos;s Honor Roll recognition is available as an official PDF letter.
+            </p>
+            <div className="experience-links">
+              <a href={honorRollPath} target="_blank" rel="noreferrer">
+                View President&apos;s Honor Roll Letter
+              </a>
+            </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

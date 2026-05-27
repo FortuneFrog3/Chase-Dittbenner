@@ -35,6 +35,31 @@
     color: rgb(39, 40, 34) !important;
 }
 
+.experience-label--spaced {
+    margin-top: 24px;
+}
+
+.experience-detail {
+    margin: 0 0 14px;
+    line-height: 1.6;
+}
+
+.experience-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.experience-links a {
+    color: #5000ca;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.experience-links a:hover {
+    text-decoration: underline;
+}
+
 .experience-list li {
     color: rgb(39, 40, 34);
     margin-bottom: 10px;
